@@ -1,0 +1,1150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "rubik";
+}
+
+@font-face {
+    font-family: "rubik";
+    src: url(./assets/afonts/Rubik-Regular.ttf);
+}
+
+body{
+    position: relative;
+    
+}
+
+body button:hover{
+    
+}
+
+body ul li:hover{
+    color: #3878FF;
+    transform: scale(1.05);
+    transition:  ease;
+    
+}
+body ul li b:hover{
+color: black;
+    transform: scale(1.05);
+    transition:  ease;
+    
+}
+
+
+
+
+/* ********header******** */
+
+
+
+.nav-mob{
+    display: none;
+}
+.navbar-brand img{
+    width: 121px;
+    height: 35px;
+}
+
+.navbar-nav  li{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ .sign-in{
+    font-weight: bolder;
+}
+.sign-up img{
+    width: 150px;
+    height: 50px;
+}
+
+
+
+
+
+@media (max-width:768px){
+    .nav-mob{
+        display: block;
+    }
+}
+@media (max-width:768px){
+    .headerpc-p{
+        display: none;
+
+    }
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+
+.headerpc{
+    display: none;
+    display: flex;
+    margin: 3% auto;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.headerpc img{
+    width: 121px;
+    height: 35px;
+}
+
+
+
+
+.headerpc .center ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin: 0;
+padding: 0;
+font-weight: 400;
+font-size: 16px;
+
+
+}
+.headerpc .center{
+    width: 450px;
+}
+
+.headerpc .right{
+    width: 230px;
+}
+
+.headerpc .right ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+list-style-type: none;
+   margin: 0;
+   padding: 0;
+
+}
+
+
+
+ .sign-in{
+    font-weight: bolder;
+}
+
+
+
+@media (max-width:1050px){
+    
+    .headerpc .sign-up{
+        width: 90px;
+        height: 30px;
+        }
+        
+
+
+
+.headerpc .center ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin: 0;
+padding: 0;
+font-weight: 400;
+font-size: 12px;
+
+
+}
+.headerpc .center{
+    width: 320px;
+}
+
+.headerpc .right{
+    width: 150px;
+    font-size: 12px;
+
+}
+
+.headerpc .right ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+list-style-type: none;
+   margin: 0;
+   padding: 0;
+
+}
+
+
+
+ .sign-in{
+    font-weight: bolder;
+}
+.sign-up img{
+    width: 150px;
+    height: 40px;
+}
+}
+
+
+
+/* BANNER 01 START--------------- */
+.banner-1{
+align-items: center;
+width: fit-content;
+   display: flex;
+   margin: 5% auto;
+
+}
+
+
+
+
+.banner-1 .right img{
+    width: 611px;
+    height: 400px;
+
+}
+
+.banner-1 .left .text1{
+
+    font-size: 50px;
+font-weight: bolder;
+}
+.banner-1 .left .text2{
+
+    font-size: 16px;
+font-weight: bolder;
+}
+.banner-1 .left img{
+
+   width: 200px;
+   height: 85.29px;
+}
+
+
+
+@media (max-width:1136px){
+    .banner-1{
+        align-items: center;
+        width: fit-content;
+           margin: 10% auto;
+           display: flex;
+        
+        }
+        
+        
+        
+        
+        .banner-1 .right img{
+            width: 500px;
+            height: 350px;
+        
+        }
+        
+        .banner-1 .left .text1{
+        
+            font-size: 40px;
+        font-weight: bolder;
+        }
+        .banner-1 .left .text2{
+        
+            font-size: 12px;
+        font-weight: bolder;
+        }
+        .banner-1 .left img{
+        
+           width: 170px;
+           height: 80px;
+        }
+
+}
+
+@media (max-width:890px){
+    .banner-1 .left{
+        text-align: center;
+    }
+   
+    .banner-1{
+        align-items: center;
+        width: fit-content;
+           margin: auto;
+           display: flex;
+           flex-direction: column-reverse;
+        
+        }
+        
+        
+        
+        
+        .banner-1 .right img{
+            width: 500px;
+            height: 350px;
+        
+        }
+        
+        .banner-1 .left .text1{
+        
+            font-size: 40px;
+        font-weight: bolder;
+        }
+        .banner-1 .left .text2{
+        
+            font-size: 12px;
+        font-weight: bolder;
+        }
+        .banner-1 .left img{
+        
+           width: 170px;
+           height: 80px;
+        }
+
+}
+
+@media (max-width:502px){
+
+    .banner-1 .left{
+        text-align: center;
+    }
+   
+    .banner-1{
+        align-items: center;
+        width: fit-content;
+           margin: auto;
+           display: flex;
+           flex-direction: column-reverse;
+        
+        }
+        
+        
+        
+        
+        .banner-1 .right img{
+            width: 350px;
+            height: 250px;
+        
+        }
+        
+        .banner-1 .left .text1{
+        
+            font-size: 30px;
+        font-weight: bolder;
+        }
+        .banner-1 .left .text2{
+            font-size: 10px;
+        font-weight: bolder;
+
+        }
+        .banner-1 .left img{
+        
+           width: 130px;
+           height: 80px;
+        }
+        .banner-1 .left{
+            text-align: center;
+        }
+       
+       
+
+}
+
+@media (max-width:354px){
+    .banner-1{
+        align-items: center;
+        width: fit-content;
+           margin: auto;
+           display: flex;
+           flex-direction: column-reverse;
+        
+        }
+        
+        
+        
+        
+        .banner-1 .right img{
+            width: 250px;
+            height: 200px;
+        
+        }
+        
+        .banner-1 .left .text1{
+        
+            font-size: 20px;
+        font-weight: bolder;
+        }
+        .banner-1 .left .text2{
+            font-size: 7px;
+        font-weight: bolder;
+
+        }
+        .banner-1 .left img{
+               height: 60px;
+        }
+        .banner-1 .left{
+            text-align: center;
+        }
+       
+       
+
+}
+
+
+/* BANNER 02 START-------------------- */
+
+.banner-2{
+    display: flex;
+    width:  65%;
+    margin: 8% auto;
+    justify-content: space-between;
+}
+
+.banner-2 .left{
+    display: inline;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.banner-2 .cen{
+    display: inline;
+    display: flex;
+        align-items: center;
+}
+.banner-2 .right{
+    display: inline;
+    display: flex;
+        align-items: center;
+
+}
+
+.banner-2 .img2{
+    margin-left: 10px;
+}
+
+
+@media (max-width:768px){
+    .banner-2{
+        align-items: center;
+        display: block;
+        width: fit-content;
+    }
+   
+    .banner-2 .left,
+.banner-2 .cen,
+.banner-2 .right {       
+    margin-top: 3%;
+
+}
+
+}
+  /* BANNER 03 START**************** */
+  .banner-3{
+    display: flex;
+    width: fit-content;
+align-items: center;
+    margin: auto;
+  }
+
+  .banner-3 .left img{
+    width: 438px;
+    height: 393px;
+  }
+
+  .banner .text1{
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  .banner .text2{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+
+  .banner-3 ul{
+    font-size: 14px;
+    font-size: bold;
+list-style-type: none; 
+line-height: 30px;
+ }
+
+ .banner-3 ul img{
+    width: 24px;
+    height: 24px;
+
+ }
+
+ @media (max-width:992px){
+    .banner-3{
+        display: flex;
+        width: fit-content;
+        flex-direction: column;
+       
+        margin: auto;
+      }
+      .banner-3 .text1{
+        text-align: center;
+      }
+      .banner-3 .text2{
+        text-align: center;
+      }
+      .banner-3 ul{
+        width: fit-content;
+        margin: auto;
+      }
+      
+
+ }
+  
+
+ @media (max-width:444px){
+    .banner-3{
+        display: flex;
+        width: fit-content;
+        flex-direction: column;
+       
+        margin: auto;
+      }
+
+      .banner-3 .left img{
+
+        width: 300px;
+    height:250px;
+      }
+      .banner-3 .text1{
+        text-align: center;
+        font-size: 28px;
+        
+      }
+      .banner-3 .text2{
+        text-align: center;
+        font-size: 13px;
+      }
+      .banner-3 ul{
+        width: fit-content;
+        margin: auto;
+        font-size: 10px;
+      }
+      .banner-3 ul img{
+     width: 16px;
+     height: 18px;
+      }
+      
+
+ }
+ 
+ @media (max-width:334px){
+    .banner-3{
+        display: flex;
+        width: fit-content;
+        flex-direction: column;
+       
+        margin: auto;
+      }
+
+      .banner-3 .left img{
+
+        width: 250px;
+    height:200px;
+      }
+      .banner-3 .text1{
+        text-align: center;
+        font-size: 22px;
+        
+      }
+      .banner-3 .text2{
+        text-align: center;
+        font-size: 10px;
+      }
+      .banner-3 ul{
+        width: fit-content;
+        margin: auto;
+        font-size: 7px;
+      }
+      .banner-3 ul img{
+     width: 12px;
+     height: 12px;
+      }
+      
+
+ }
+
+
+
+ /* BNNER 4 START -------------------------------------------
+ 
+*/
+.banner-4{
+    margin-top: 10%;
+}
+
+.banner-4 .top p:nth-of-type(2){
+    font-size: 16px;
+font-weight: bold;
+text-align: center;
+}
+
+.banner .top p:first-of-type{
+font-size: 35px;
+font-weight: bolder;
+text-align: center;
+
+}
+
+
+.banner-4 .bottom{
+display: flex;
+width: 90%;
+margin: auto;
+justify-content: space-evenly;
+flex-wrap: wrap;
+
+}
+.banner-4 .bottom ul{
+    list-style-type: none;
+    font-size: 14px;
+width: 260px;  
+  margin: 0 auto;
+    line-height: 35px;
+}
+
+.banner-4 .bottom .card{
+    border: 2px solid #DDDDDD;
+    margin-top: 20px;
+    
+}
+.banner-4 .bottom .card:hover{
+    transform: scale(1.05);
+    transition:  0.3s ease;
+}
+
+.banner-4 .card .top-img{
+    width: 142px;
+    height: 198px;
+    margin: auto;
+}
+
+.banner-4 .card li img{
+    margin-right: 15px;
+}
+
+.banner-4 .card p{
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 10% auto;
+}
+
+
+.banner-4 .card button {
+    font-size: 16px;
+    font-size: bolder;
+    border: 2px solid #3878FF;
+    color: #3878FF;
+    border-radius: 50px;
+    height: 45px;
+    width: 177px;
+    margin: auto;
+    margin-bottom: 11%;
+
+  
+}
+
+.banner-4 .card button:hover{
+    color: white;
+    background-color:#3878FF ;
+}
+
+.banner-4 .card span{
+    font-weight: bold;
+    color: grey;
+}
+
+
+
+/* BANNER 05 START----------- */
+
+.banner-5{
+    margin-top: 10%;
+}
+
+.banner-5 .top p:nth-of-type(2){
+    font-size: 16px;
+font-weight: bold;
+text-align: center;
+}
+
+.banner-5 .top p:first-of-type{
+font-size: 35px;
+font-weight: bolder;
+text-align: center;
+
+}
+
+.banner-5 .center{
+    text-align: center;
+    margin-top: 5%;
+}
+.banner-5 .center img{
+    width: 1060px;
+    height: 537.7px;
+
+}
+.banner-5 .down{
+    width: fit-content;
+    margin: 5% auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner-5 .down img{
+    width: 190px;
+    height: 60px;
+    
+}
+ .down .last-img{
+    width: 277px !important;
+    height: 208px !important;
+
+}
+
+@media (max-width:10622px){
+    .banner-5 .center img{
+        width: 800px;
+        height: 457.7px;
+    
+    }
+}
+
+@media (max-width:806px){
+    .banner-5 .center img{
+        width: 600px;
+        height: 350px;
+    
+    }
+}
+
+@media (max-width:606px){
+    .banner-5 .center img{
+        width: 400px;
+        height: 240px;
+    
+    }
+}
+
+
+@media (max-width:394px){
+    .banner-5 .center img{
+        width: 250px;
+        height: 140px;
+    
+    }
+}
+
+
+/* BANNER 06 START-----------------
+ */
+
+
+ .banner-6 .top p:nth-of-type(2){
+    font-size: 16px;
+font-weight: bold;
+text-align: center;
+}
+
+.banner-6 .top p:first-of-type{
+font-size: 35px;
+font-weight: bolder;
+text-align: center;
+
+}
+
+.banner-6 span{
+    font-size: 12px;
+    color: grey;
+
+}
+.banner-6 .down{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 5% auto;
+   
+}
+
+.banner-6 .card{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 180px;
+    padding: 15px;
+    border: 2px solid #DDDDDD;
+    margin-top: 3%;
+    
+}
+
+.banner-6 .card:hover{
+    border: 2px solid #3878FF
+}
+
+.banner-6 .down img{
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.banner-6 .down p:first-of-type{
+   font-size: 18px;
+   font-weight: bolder;
+   width: 162px;
+
+}
+ 
+.banner-6 .down p:nth-of-type(2){
+    font-size: 16px;
+    font-weight: bold;
+ }
+
+ .banner-6 .down p:nth-of-type(2) img{
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+
+ }
+ .banner-6 .down2 .left img{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+ }
+
+
+
+ .banner-6 .down2 .left img:first-of-type{
+    width: 45px;
+    height: 15px;
+ }
+
+ .banner-6 .down2 .right img{
+    width: 60px;
+    height: 60px;
+    margin-left: 7px;
+
+ }
+ .banner-6 .down2 .right div{
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    border-radius:50px ;
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 15px;
+
+ }
+ .banner-6 .down2 .right div img{
+    width: 35px;
+    height: 30px;
+
+
+ }
+
+
+ .banner-6 .down2{
+    width: 80%;
+margin-left: 8%;
+flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .banner-6 .down2 .right{
+    display: flex;
+ }
+
+
+
+ /* BANNER 07 START------------- */
+
+ .banner-7 {
+    margin-top: 5% ;
+    padding: 3%;
+    margin: auto;
+width: 75%;
+background-color: #FFFFFF;
+display: flex;
+flex-direction: column;
+justify-content: center;
+z-index: 1;
+position: relative;
+
+
+ }
+ .banner-7 .up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+  
+ }
+
+ .banner-7 .up input{
+    border: 2px solid #3878FF;
+width: 609px;
+height: 60px;
+border-radius: 10px;
+ }
+
+
+ .banner-7 .up button{
+    width: 250px;
+    height: 60px;
+    background-color: #3878FF;
+    border-radius: 10px;
+color: white;
+border: none;
+
+ }
+
+ .banner-7 button:hover{
+    background-color: white;
+    color: #3878FF;
+    border: 2px solid #3878FF;
+ }
+
+ ::placeholder{
+    padding-left: 5%;
+    font-size: medium;
+    
+ }
+
+ @media (max-width:1258px){
+    .banner-7 .up{
+        display: flex;
+        
+        flex-direction: column;
+        margin-top: 2%;
+      
+     }
+
+     .banner-7 {
+        margin-top: 5% ;
+        padding: 3%;
+        margin: auto;
+    width: 75%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+    
+     }
+ }
+
+ @media (max-width:822px){
+    
+
+     
+ .banner-7 .up input{
+    border: 2px solid #3878FF;
+width: 400px;
+height: 40px;
+border-radius: 10px;
+ }
+
+
+ .banner-7 .up button{
+    width: 150px;
+    height: 40px;
+    background-color: #3878FF;
+    border-radius: 10px;
+color: white;
+border: none;
+
+ }
+ }
+
+ @media (max-width:522px){
+    
+
+     
+    .banner-7 .up input{
+       border: 2px solid #3878FF;
+   width: 250px;
+   height: 25px;
+   border-radius: 4px;
+    }
+   
+   
+    .banner-7 .up button{
+       width: 90px;
+       height: 25px;
+       background-color: #3878FF;
+       border-radius: 4px;
+   color: white;
+   border: none;
+   
+    }
+
+    .banner-7 .down{
+        font-size: 10px;
+    }
+
+    .banner-7 ::placeholder{
+        font-size: small;
+    }
+   
+        
+
+     .banner-7 button{
+        font-size: 10px;
+     }
+    }
+
+    /* foter start------------------------ */
+  
+
+.footer{
+    width: 85%;
+    margin: auto;
+    background: #F8F8F8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer ul b{
+    font-size: 18px;
+}
+.footer ul li{
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.footer .a{
+width: 40%;
+
+}
+.footer .b{
+width: 20%;
+
+
+}
+.footer .c{
+    width: 20%;
+    
+
+}
+.footer .d{
+    width: 20%;
+    
+
+}
+@media(min-width:1002px){
+    .DOWN{
+        padding-top: 10%;
+        width: 100%;
+        background-color: #F8F8F8;
+        position: absolute;
+        bottom: -7%;
+      
+    }
+}
+
+
+
+@media (max-width:992px){
+    .footer{
+        justify-content: center;
+        align-items: start;
+        justify-content: start;
+    }
+    .footer .a{
+        width: 71%;
+    }
+
+    .footer .b{
+        width: 33%
+
+    }
+    .footer .b{
+        width: 33%
+
+    }
+    .footer .c{
+        width: 33%
+
+    }
+}
+
+@media (max-width:782px){
+    .footer{
+        justify-content: center;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .footer ul li{
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .footer ul li b{
+        font-size: 12px;
+    }
+   
+  
+    .footer .a{
+        width: 81%;
+    }
+
+    .footer .b{
+        width: 25%
+
+    }
+    .footer .c{
+        width: 25%
+
+    }
+    .footer .d{
+        width: 43%
+
+    }
+}
+
+@media (max-width:502px){
+    .footer ul li{
+        line-height: 15px;
+    }
+
+    .footer .a{
+        font-size: 14px;
+    }
+    .footer .c{
+        width:28%;
+    }
+    .footer .d{
+        width:37%;
+    }
+}
+
+
+
+  

@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "rubik";
+}
+
+@font-face {
+    font-family: "rubik";
+    src: url(./assets/afonts/Rubik-Regular.ttf);
+}
+
+
+
+
+/* ********header******** */
+
+.nav-mob{
+    display: none;
+}
+.navbar-brand img{
+    width: 121px;
+    height: 35px;
+}
+
+.navbar-nav  li{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ .sign-in{
+    font-weight: bolder;
+}
+.sign-up img{
+    width: 150px;
+    height: 50px;
+}
+
+
+
+
+
+@media (max-width:768px){
+    .nav-mob{
+        display: block;
+    }
+}
+@media (max-width:768px){
+    .headerpc-p{
+        display: none;
+    }
+}
+
+
+
+.headerpc{
+    display: none;
+    display: flex;
+    margin: 3% auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerpc img{
+    width: 121px;
+    height: 35px;
+}
+
+
+
+
+.headerpc .center ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin: 0;
+padding: 0;
+font-weight: 400;
+font-size: 16px;
+
+
+}
+.headerpc .center{
+    width: 450px;
+}
+
+.headerpc .right{
+    width: 230px;
+}
+
+.headerpc .right ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+list-style-type: none;
+   margin: 0;
+   padding: 0;
+
+}
+
+
+
+ .sign-in{
+    font-weight: bolder;
+}
+
+
+
+@media (max-width:1050px){
+    
+    .headerpc .sign-up{
+        width: 90px;
+        height: 30px;
+        }
+        
+
+
+
+.headerpc .center ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin: 0;
+padding: 0;
+font-weight: 400;
+font-size: 12px;
+
+
+}
+.headerpc .center{
+    width: 320px;
+}
+
+.headerpc .right{
+    width: 150px;
+    font-size: 12px;
+
+}
+
+.headerpc .right ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+list-style-type: none;
+   margin: 0;
+   padding: 0;
+
+}
+
+
+
+ .sign-in{
+    font-weight: bolder;
+}
+.sign-up img{
+    width: 150px;
+    height: 40px;
+}
+}
+
+
+
+/* BANNER 01 START--------------- */
+.banner-1{
+background-color: aqua; 
+   border: 1px solid black;
+   width: 90%;
+   margin: auto;
+   display: flex;
+
+}
+
+
+.banner-1 .right{
+    background-color: red;
+}
+.banner-1 .left{
+    background-color: grey;
+}
+
+.banner-1 .right img{
+    border: 1px solid black;
+    width: 611px;
+    height: 436px;
+
+}
+
+.banner-1 .left .text1{
+    border: 1px solid black;
+
+    font-size: 50px;
+font-weight: bolder;
+}
+.banner-1 .left .text2{
+    border: 1px solid black;
+
+    font-size: 16px;
+font-weight: bolder;
+}
+.banner-1 .left img{
+    border: 1px solid black;
+
+   width: 250px;
+   height: 85.29px;
+}
+
+
+
+
+
+ 
+
